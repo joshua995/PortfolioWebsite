@@ -40,22 +40,18 @@ nav {
 
 nav ul {
     list-style-type: none;
-    /* Removes bullet points */
     margin: 0;
     padding: 0;
     display: flex;
-    /* Makes the list horizontal */
     background-color: var(--backgroundColor);
 }
 
 nav li a {
     display: block;
-    /* Makes the entire area clickable */
     color: var(--textColor);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    /* Removes underlines */
 }
 
 /* Change color on hover */
@@ -124,7 +120,6 @@ h2 {
 .link:hover {
     color: var(--backgroundColor);
     background-color: var(--textColor);
-    /* font-weight: bold; */
 }
 
 .linkmain {
@@ -190,8 +185,6 @@ column video {
 
 column video .snake {
     width: 300%;
-    /* height: auto;
-    margin: auto; */
 }
 
 .delf img {
@@ -209,24 +202,19 @@ column img:hover~.tooltip {
 }
 
 .tooltip {
-    /* position: absolute; */
     display: flex;
     white-space: normal;
     max-width: fit-content;
     white-space: normal;
     text-align: center;
-    /* allows wrapping */
     word-wrap: break-word;
-    /* breaks long words */
     overflow-wrap: break-word;
-    /* modern version of the above */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     opacity: 0;
     pointer-events: none;
-    /* transition: opacity 0.2s ease; */
     margin: auto;
 }
 
@@ -242,11 +230,11 @@ column img:hover~.tooltip {
     font-size: 35pt;
     width: fit-content;
     overflow: hidden;
-    /* white-space: nowrap; */
+    white-space: nowrap;
     border-right: 5pt solid var(--textColor);
     animation:
-        typing 3s steps(70, end) forwards,
-        blink-caret 0.75s step-end 5 forwards;
+        typing 2s steps(70, end) forwards,
+        blink-caret 0.5s step-end 5 forwards;
     margin: auto;
 }
 
@@ -256,7 +244,7 @@ column img:hover~.tooltip {
     }
 
     to {
-        width: 30%;
+        width: 31%;
     }
 }
 
@@ -293,14 +281,12 @@ column img:hover~.tooltip {
     }
 }
 
-/* Slideshow container */
 .slideshow-container {
     max-width: 450px;
     position: relative;
     margin: auto;
 }
 
-/* Caption text */
 .captiontext {
     color: var(--backgroundColor);
     font-size: 15px;
@@ -311,7 +297,6 @@ column img:hover~.tooltip {
     text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
     color: var(--backgroundColor);
     font-size: 12px;
@@ -320,7 +305,6 @@ column img:hover~.tooltip {
     top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
     height: 10px;
     width: 10px;
@@ -337,10 +321,8 @@ column img:hover~.tooltip {
     background-color: var(--textColor);
 }
 
-/* Fading animation */
 .fade {
     animation-name: fade;
-    /* animation-duration: 1.5s; */
 }
 
 @keyframes fade {
@@ -369,11 +351,8 @@ img {
 #follow {
     position: absolute;
     width: 32px;
-    /* Adjust size as needed */
     pointer-events: none;
-    /* Allows clicking "through" the image */
     transform: translate(-50%, -50%);
-    /* Centers the image on the cursor */
     z-index: 9999;
 }
 

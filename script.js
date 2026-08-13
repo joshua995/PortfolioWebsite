@@ -146,16 +146,13 @@ document.addEventListener("mousemove", (e) => {
 
 function update() {
   if (localStorage.getItem("hasTail") === 'true') {
-    // FOLLOW (lerp / easing)
     followX += (mouseX - followX) * .05;
     followY += (mouseYPage - followY) * .05;
 
-    // center offset
     const rect = tail.getBoundingClientRect();
     const cx = followX;
     const cy = followY;
 
-    // ROTATE toward cursor
     const angle = Math.atan2(mouseYPage - cy, mouseX - cx);
     const deg = angle * 180 / Math.PI;
 
@@ -182,6 +179,3 @@ if (tailButton != null) {
   });
 }
 
-
-
-// document.body.style.cursor = "none";
