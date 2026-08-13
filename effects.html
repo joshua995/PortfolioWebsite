@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<my-nav></my-nav>
+
+<body>
+    <h1>Visual Effects</h1>
+    <p class="text">Change how the website looks based on your appeal.</p>
+    <h2>Cursor Tail</h2>
+    <row>
+        <column>
+            <button id="toggleTailButton">Toggle Tail</button>
+        </column>
+    </row>
+    <h2>Background Themes</h2>
+    <row>
+        <column>
+            <img src="images/itch/avoidRedMain.png">
+            <button onclick="setCurrentBackgroundTheme('avoidRed')">Avoid Red Theme</button>
+        </column>
+        <column>
+            <button onclick="setCurrentBackgroundTheme('none')">No Theme</button>
+        </column>
+    </row>
+</body>
+<my-footer></my-footer>
+
+</html>
