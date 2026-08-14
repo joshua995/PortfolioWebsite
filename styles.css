@@ -189,7 +189,7 @@ column video .snake {
 
 column iframe {
     width: 100%;
-    height: auto;
+    aspect-ratio: 1 / 1;
     margin: auto;
 }
 
