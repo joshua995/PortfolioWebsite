@@ -250,7 +250,7 @@ column img:hover~.tooltip {
     }
 
     to {
-        width: 0%;
+        width: 50%;
     }
 }
 
@@ -265,7 +265,7 @@ column img:hover~.tooltip {
         border-color: var(--textColor);
     }
 
-    80% {
+    100% {
         border-color: transparent;
     }
 }
