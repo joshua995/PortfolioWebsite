@@ -239,8 +239,8 @@ column img:hover~.tooltip {
     white-space: nowrap;
     border-right: 5pt solid var(--textColor);
     animation:
-        typing 2s steps(70, end) forwards,
-        blink-caret 0.5s step-end 6 forwards;
+        typing 2s steps(18, end) forwards,
+        blink-caret 0.5s step-end 5 forwards;
     margin: auto;
 }
 
