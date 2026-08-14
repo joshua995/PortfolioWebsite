@@ -250,7 +250,7 @@ column img:hover~.tooltip {
     }
 
     to {
-        width: 30%;
+        width: 0%;
     }
 }
 
