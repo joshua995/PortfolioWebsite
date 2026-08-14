@@ -187,9 +187,9 @@ column video .snake {
     width: 300%;
 }
 
-column iframe .square {
-    width: 500px;
-    height: 500px;
+column .square {
+    height: 100%;
+    aspect-ratio: 1/1;
     border: none;
 }
 
