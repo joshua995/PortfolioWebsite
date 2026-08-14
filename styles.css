@@ -187,7 +187,7 @@ column video .snake {
     width: 300%;
 }
 
-column .square-video {
+column iframe {
     width: 100%;
     height: auto;
     border: none;
