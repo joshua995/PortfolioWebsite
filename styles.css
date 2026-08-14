@@ -187,10 +187,10 @@ column video .snake {
     width: 300%;
 }
 
-.square-video {
-    height: 800;
-    width: 800;
-    border: none;
+column iframe {
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 .delf img {
