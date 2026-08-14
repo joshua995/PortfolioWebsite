@@ -240,7 +240,7 @@ column img:hover~.tooltip {
     border-right: 5pt solid var(--textColor);
     animation:
         typing 2s steps(18, end) forwards,
-        blink-caret 0.5s step-end 5 forwards;
+        blink-caret 0.5s step-end 1 forwards;
     margin: auto;
 }
 
