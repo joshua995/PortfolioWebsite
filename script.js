@@ -49,7 +49,9 @@ let mouseYPage = window.innerHeight / 2;
 let followX = mouseX;
 let followY = mouseYPage;
 
-let hasTail = localStorage.getItem("hasTail") === 'true';
+let hasTail = localStorage.getItem("hasTail") === null
+  ? "true"
+  : localStorage.getItem("hasTail") === "true";
 localStorage.setItem("hasTail", hasTail);
 
 let tail = null;
