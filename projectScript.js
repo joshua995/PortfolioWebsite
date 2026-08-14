@@ -73,3 +73,7 @@ function showGitSlides(indexChange = 1) {
 
 
 
+document.querySelectorAll("iframe").forEach(video => {
+  video.preload = "auto";
+  video.load();
+});
