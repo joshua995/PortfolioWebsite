@@ -19,3 +19,8 @@ function showSlides() {
   dots[fractalTreeSlideIndex - 1].className += " active";
   setTimeout(showSlides, 2000); // Change image every second
 }
+
+document.querySelectorAll("iframe").forEach(video => {
+  video.preload = "auto";
+  video.load();
+});
