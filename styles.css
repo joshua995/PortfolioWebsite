@@ -187,6 +187,12 @@ column video .snake {
     width: 300%;
 }
 
+.square-video {
+    height: 100%;
+    width: auto;
+    border: none;
+}
+
 .delf img {
     position: relative;
     width: 300%;
