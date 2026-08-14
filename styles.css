@@ -188,7 +188,7 @@ column video .snake {
 }
 
 column .square-video {
-    width: 100%;
+    height: 100%;
     aspect-ratio: 1/1;
     border: none;
 }
