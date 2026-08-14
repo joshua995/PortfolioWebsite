@@ -188,8 +188,8 @@ column video .snake {
 }
 
 .square-video {
-    height: 800px;
-    width: 800px;
+    height: 800;
+    width: 800;
     border: none;
 }
 
