@@ -181,8 +181,3 @@ if (tailButton != null) {
   });
 }
 
-document.querySelectorAll("iframe").forEach(video => {
-  video.preload = "auto";
-  video.load();
-});
-
