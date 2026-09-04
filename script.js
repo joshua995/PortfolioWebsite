@@ -14,7 +14,6 @@ class MyFooter extends HTMLElement {
             <button onclick="setCurrentBackgroundTheme('none')">No Theme</button>
           </column>
         <row>
-        <p>&copy 2026</p>
       </footer>
     `;
   }
